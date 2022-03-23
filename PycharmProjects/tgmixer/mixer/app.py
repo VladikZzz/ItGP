@@ -1,9 +1,6 @@
 import time
 from threading import Thread
-
 import schedule
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
-from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram import Bot, Dispatcher, executor, types
 
 import api
